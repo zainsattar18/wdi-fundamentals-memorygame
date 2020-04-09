@@ -1,4 +1,4 @@
-console.log("Up and running");
+
 
 
 let cards = [
@@ -25,6 +25,8 @@ let cards = [
 ];
 
 let cardsInPlay = [];
+
+let resetButton = document.getElementById("resetB");
 
 function checkForMatch(){
 	
@@ -61,5 +63,11 @@ function createBoard (){
 		document.getElementById("game-board").appendChild(cardElement);
 	}
 }
+
+function resetGame(){
+	location.reload();
+}
+
+resetButton.addEventListener('click', resetGame);
 
 createBoard();

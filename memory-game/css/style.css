@@ -18,6 +18,11 @@ body {
   font-size: 0;
 }
 
+#resetB{
+  background-color: #F15B31;
+  color: rgb(255,255,255);
+
+}
 /* =============================
 TYPOGRAPHY
 ================================ */
