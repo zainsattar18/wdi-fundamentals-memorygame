@@ -1,6 +1,4 @@
-/* =============================
-GENERAL STYLES 
-================================ */
+
 body {
   font-family: "Raleway", sans-serif;
   text-align: center;
@@ -23,9 +21,7 @@ body {
   color: rgb(255,255,255);
 
 }
-/* =============================
-TYPOGRAPHY
-================================ */
+
 h1, h2 {
   text-transform: uppercase;
 }
@@ -58,33 +54,25 @@ a {
   letter-spacing: .06em;
 
   margin: 0 20px;
-  /* For hover style transition (bonus) */
-  border-bottom: 2px solid transparent;
-/*   transition: all .3s ease-in-out; */
+  /  border-bottom: 2px solid transparent;
 }
 
 a:hover {
   border-bottom: 2px solid white;
 }
-/* =============================
-HEADER
-================================ */
+
 header {
   background-color: #F15B31;
   padding: 30px 20px;
 }
 
-/* =============================
-NAV
-================================ */
+
 nav {
   background-color: #00A6B3;
   padding: 20px 0;
 }
 
-/* =============================
-MAIN SECTION
-================================ */
+
 
 main {
   width: 850px;
@@ -92,16 +80,12 @@ main {
 }
 
 
-/* =============================
-GAME BOARD
-================================ */
+
 img {
   margin: 40px 8px 0;
 }
 
-/* =============================
-FOOTER
-================================ */
+
 footer {
   text-transform: uppercase;
   padding: 0 20px;
